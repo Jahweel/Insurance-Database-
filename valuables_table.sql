@@ -5,3 +5,7 @@ CREATE TABLE valuable_items
  ,repair_cost INTEGER 
  ,replacment_cost INTEGER  
 ); 
+ 
+--changing table name to be more cosistent 
+ALTER TABLE valuable_items 
+RENAME TO items; 
